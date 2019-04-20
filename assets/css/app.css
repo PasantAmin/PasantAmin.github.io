@@ -1,0 +1,51 @@
+body, html {
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.carousel-bg-layer {
+    padding: 1.5rem !important;
+    background-color: #343434;
+    width: 50% !important;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.display-5 {
+    font-size: 3.0rem;
+    font-weight: 300;
+    line-height: 1.2
+}
+
+.display-6 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2
+}
+
+.display-7 {
+    font-size: 2.1rem;
+    font-weight: 300;
+    line-height: 1.2
+}
+
+.font-20 {
+    font-size: 20px !important;
+}
+
+.black {
+    color: black !important;
+}
+
+.black-white {
+    color: white !important;
+    background-color: black;
+}
+
+.lightGray {
+    background-color: #e4e4e4;
+}

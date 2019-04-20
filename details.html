@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Graduation Project | Home</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="./assets/css/app.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">
+        GP
+    </a>
+    <button class="navbar-toggler" type="button"
+            data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+            </li>
+
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#"
+                   id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Details
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#outline">Outline</a>
+                    <a class="dropdown-item" href="#motivation">Motivation</a>
+                    <a class="dropdown-item" href="#goals">Goals</a>
+                    <a class="dropdown-item" href="#challenges">Challenges</a>
+                    <a class="dropdown-item" href="#background">Background</a>
+                    <a class="dropdown-item" href="#dataScraping">Data Scraping</a>
+                    <a class="dropdown-item" href="#features">Features</a>
+                    <a class="dropdown-item" href="#architectures">Architectures</a>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">......</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">......</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="bd-example" style="margin-top: 55px">
+    <div id="architecturesCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#architecturesCaptions"
+                data-slide-to="0" class="active"></li>
+            <li data-target="#architecturesCaptions" data-slide-to="1"></li>
+            <li data-target="#architecturesCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/images/CNN_edited.png"
+                     height="600"
+                     class="d-block w-100" alt="CNN Architecture">
+                <div class="carousel-caption d-none d-md-block carousel-bg-layer">
+                    <h5>CNN Architecture</h5>
+                    <p>The first used architecture in the project.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/LSTM.png"
+                     height="600"
+                     class="d-block w-100" alt="CNN Architecture">
+                <div class="carousel-caption d-none d-md-block carousel-bg-layer">
+                    <h5>RNN Architecture - LSTM</h5>
+                    <p>The second used architecture in the project.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/Hybrid.png"
+                     height="600"
+                     class="d-block w-100" alt="CNN Architecture">
+                <div class="carousel-caption d-none d-md-block carousel-bg-layer">
+                    <h5>Hybrid Architecture</h5>
+                    <p>The third used architecture in the project.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#architecturesCaptions"
+           role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#architecturesCaptions"
+           role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<div id="outline">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 my-5">
+                <div class="card shadow shadow-lg p-3">
+                    <div class="card-body">
+                        <h3 class="display-6">
+                            Project Outline
+                        </h3>
+                        <hr>
+                        <p class="font-20">
+                            Sarcasm is to seek an opposite intuition of what you mean. Detecting sarcasm is a key for
+                            sentiment
+                            analysis to differentiate between the two opposite polarities that an utterance may convey,
+                            also
+                            between the literal meaning verses the expressed one. Sarcasm detection is an approach to
+                            classify a
+                            sentence as sarcastic or not. Models for sarcasm detection are varying from rule-based
+                            model,
+                            context-based, content based models and recently deep learning models. In this project, we
+                            implemented different architectures for this task and seek to improve the state-of-art
+                            accuracy for
+                            Arabic sarcasm detection models. The highest results over our proposed approaches was
+                            achieved by
+                            the CNN model with accuracy of __ and F1 score of __.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="" id="motivation">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 my-5">
+                <div class="card shadow shadow-lg p-3">
+                    <div class="card-body">
+                        <h3 class="display-6 text-left">
+                            Motivation
+                        </h3>
+                        <hr>
+                        <p class="text-center display-7">
+                            Why to detect sarcasm?
+                        </p>
+
+                        <ul class="list-unstyled text-left font-20">
+                            <li>
+                                <i class="fa fa-caret-right mr-2"></i>
+                                <span>To determine right polarity of a sentence in sentiment analysis tasks.</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right mr-2"></i>
+                                <span>Diagnoses of depression.</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right mr-2"></i>
+                                <span>For autistic people: who are often victims of bullying.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="" id="goals">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 my-5">
+                <div class="card shadow shadow-lg p-3">
+                    <div class="card-body">
+                        <h3 class="display-6 text-left">
+                            Goals
+                        </h3>
+                        <hr>
+                        <p class="font-20 text-left">
+                            We aim at bridging the gap of sarcasm detection task in Arabic language. The proposed model
+                            has to
+                            determine sentence category (weather it is sarcastic or not), with competitive results in
+                            contrast
+                            to other models.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="" id="challenges">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 my-5">
+                <div class="card shadow shadow-lg p-3">
+                    <div class="card-body">
+                        <h3 class="display-6 text-left">
+                            Challenges
+                        </h3>
+                        <hr>
+                        <p class="text-center display-7 font-weight-bold">
+                            FIRST
+                        </p>
+                        <p class="text-center display-7">
+                            Arabic language challenges
+                        </p>
+
+                        <ul class="list-unstyled text-left font-20">
+                            <li>
+                                <i class="fa fa-caret-right mr-2"></i>
+                                <span>Complicated structure.</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right mr-2"></i>
+                                <span>Lack of resources.</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right mr-2"></i>
+                                <span>Rich morphology.</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right mr-2"></i>
+                                <span>The varying dialects it has.</span>
+                            </li>
+                        </ul>
+
+                        <p class="text-center display-7 font-weight-bold">
+                            SECOND
+                        </p>
+                        <p class="text-center display-7">
+                            Data collection and annotation
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="" id="background">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 my-5">
+                <div class="card shadow shadow-lg p-3">
+                    <div class="card-body">
+                        <h3 class="display-6">
+                            Background
+                        </h3>
+                        <hr>
+                        <p class="font-20">
+                            Figure is here.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="" id="dataScraping">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 my-5">
+                <div class="card shadow shadow-lg p-3">
+                    <div class="card-body">
+                        <h3 class="display-6 text-left">
+                            Data Scraping
+                        </h3>
+                        <hr>
+                        <p class="font-20 text-left">
+                            Dataset used in this paper is built by scrapping headlines news; covering different topics:
+                            political, social, economic… etc. Web scraping is a beneficial tool to extract data for
+                            websites
+                            without API’s.
+                        </p>
+
+                        <p class="font-20 text-left">
+                            For sarcastic headlines, we have scraped the Arabic sarcastic website named
+                            *“alhudood.net”, using Scrapy python library (an open source and powerful framework for data
+                            crawling). For non-sarcastic headlines, we have scraped the Arabic news website
+                            “masress.com”.
+                        </p>
+
+                        <p class="font-20 text-left">
+                            Our dataset is written in standard Arabic and is balanced, with 2999 sarcastic headlines and
+                            2999
+                            non-sarcastic ones. *Dataset will be available for download for research purposes.
+                        </p>
+
+                        <hr width="50%">
+                        <h3 class="display-7 text-left">
+                            Tools
+                        </h3>
+
+                        <p class="text-center display-7">
+                            <a href="https://scrapy.org" style="text-decoration: none !important;">Scrapy</a>
+                        </p>
+                        <div class="text-center mt-2">
+                            <img src="./assets/images/scrapy-logo.png" alt="Scrapy Logo">
+                        </div>
+                        <div class="text-center font-20 mt-2">
+                    <span class="text-muted">An open source and collaborative framework for extracting the
+                        data you need from websites. In a fast, simple, yet extensible way.</span>
+                        </div>
+
+                        <hr width="50%">
+
+                        <h3 class="display-7 text-left">
+                            Scrapped Websites
+                        </h3>
+
+                        <p class="text-center display-7">
+                            <a href="https://www.masress.com" style="text-decoration: none !important;">مصرس</a>
+                        </p>
+                        <div class="text-center mt-2">
+                            <img src="./assets/images/masress-logo-ar.png" alt="Masress Logo">
+                        </div>
+                        <div class="text-center font-20 mt-2">
+                            <span class="text-muted">أخبار مصر على مدار الساعة.</span>
+                        </div>
+
+                        <p class="text-center display-7 mt-3">
+                            <a href="https://alhudood.net" style="text-decoration: none !important;">الحدود</a>
+                        </p>
+                        <div class="text-center mt-2">
+                            <img src="./assets/images/AL-HUDOOD-LOGO.png" alt="Al-Hudood Logo">
+                        </div>
+                        <div class="text-center font-20 mt-2">
+                            <span class="text-muted">أخبار ساخرة | أخبار عربية ساخرة.</span>
+                        </div>
+
+                        <hr width="50%">
+
+                        <h3 class="display-7 text-left">
+                            Data Samples
+                        </h3>
+                        <div class="text-center mt-2">
+                            <a data-fancybox="images" data-width="2048" data-height="1365"
+                               href="./assets/images/data-sample-1.PNG" class="slider">
+                                <img src="./assets/images/data-sample-1.PNG"
+                                     width="800" height="300"
+                                     alt="">
+                            </a>
+                        </div>
+
+                        <hr width="50%">
+
+                        <h3 class="display-7 text-left">
+                            Data Sources
+                        </h3>
+
+                        <div class="text-center font-20 mt-2">
+                    <span class="text-muted">You can download and use our scrapped
+                        data from the following sources.</span>
+                        </div>
+
+                        <div class="text-center font-20 mt-3">
+                            <a href="assets/files/public_data.json"
+                               style="text-decoration: none !important;">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="" id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 my-5">
+                <div class="card shadow shadow-lg p-3">
+                    <div class="card-body">
+                        <h3 class="display-6 text-left">
+                            Features (Word Representation)
+                        </h3>
+                        <hr>
+                        <div class="text-center mt-2">
+                            <a data-fancybox="images" data-width="2048" data-height="1365"
+                               href="./assets/images/Word%20embedding.png" class="slider">
+                                <img src="./assets/images/Word%20embedding.png"
+                                     width="600" height="400"
+                                     alt="">
+                            </a>
+                        </div>
+                        <p class="font-20 text-left mt-3">
+                            Text classification is to label different texts according to common patterns or features. A
+                            substantial concept in sarcasm detection is to look for sentiment words that cases
+                            incongruity in an
+                            utterance. On Contrary, some sentences convey sarcasm with no existence of such words.
+                            Therefore,
+                            the role of word embedding (representation) arises. Word embedding as a feature is a
+                            numerical
+                            representation for words in fixed size vectors. Additionally, it is an avenue to discover
+                            sematic
+                            and syntactic information. Most common used pre-trained word embedding are: word2vec by
+                            Google,
+                            glove by Stanford, and fast Text by Facebook.
+                        </p>
+                        <p class="font-20 text-left">
+                            We preferred using word embedding rather than one-hot
+                            vectors. Researchers at Facebook AI Research leveraged from skipgram in word embedding. They
+                            throw
+                            lights to represent language at a character-level. They proposed representations for each
+                            word as
+                            bag of characters, with vector representation assigned to each character n-gram and word
+                            representation as a sum of its n-gram vectors. Another pertained model for Arabic word
+                            embedding,
+                            called “AraVec”. AraVec provides variant word representation models for different text
+                            domains, they
+                            utilized Continuous Bag of Words (CBOW) and Skipgram. Their proposed work provides 16
+                            different word
+                            embedding models using two content platforms Twitter and Wikipedia. Tweets to represent
+                            bilingual
+                            Arabic and Wikipedia for standard Arabic.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="" id="architectures">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 my-5">
+                <div class="card shadow shadow-lg p-3">
+                    <div class="card-body">
+                        <h3 class="display-6 text-left">
+                            CNN Architectures
+                        </h3>
+                        <hr>
+                        <p class="text-center display-7 font-weight-bold">
+                            CNN Architecture
+                        </p>
+                        <div class="text-center mt-2">
+                            <a data-fancybox="images" data-width="2048" data-height="1365"
+                               href="./assets/images/CNN_edited.png" class="slider">
+                                <img src="./assets/images/CNN_edited.png"
+                                     width="800" height="500" class="rounded"
+                                     alt="">
+                            </a>
+                        </div>
+                        <p class="text-center font-20 mt-3">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, atque culpa dignissimos
+                            doloremque
+                            eius esse est fuga in, laboriosam, mollitia neque nisi porro recusandae rem repellendus
+                            rerum sit
+                            tempore voluptas.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, atque culpa dignissimos
+                            doloremque
+                            eius esse est fuga in, laboriosam, mollitia neque nisi porro recusandae rem repellendus
+                            rerum sit
+                            tempore voluptas.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, atque culpa dignissimos
+                            doloremque
+                            eius esse est fuga in, laboriosam, mollitia neque nisi porro recusandae rem repellendus
+                            rerum sit
+                            tempore voluptas.
+                        </p>
+
+                        <hr width="50%">
+
+                        <p class="text-center display-7 font-weight-bold mt-3">
+                            RNN Architecture - LSTM
+                        </p>
+                        <div class="text-center mt-2">
+                            <a data-fancybox="images" data-width="2048" data-height="1365"
+                               href="./assets/images/LSTM.png" class="slider">
+                                <img src="./assets/images/LSTM.png"
+                                     width="800" height="500" class="rounded"
+                                     alt="">
+                            </a>
+                        </div>
+                        <p class="text-center font-20 mt-3">
+                            Recently, text classification has leveraged from sequence models (RNN). In most cases, RNN
+                            is
+                            efficient for short text rather than long ones. On Contrary, some issues arise while
+                            training, as:
+                            requirement for large memory and high error value after many network calls. LSTM, BiLSTM and
+                            GRU
+                            compile with short text because they share similar constructions. Moreover, empirical
+                            experiments
+                            demonstrate that LSTM and BiLSTM results are more accurate than GRU. Additionally GRU is
+                            faster in
+                            the training process but it doesn't operate well with very short phrases.
+                        </p>
+
+                        <hr width="50%">
+
+                        <p class="text-center display-7 font-weight-bold mt-3">
+                            Hybrid Architecture
+                        </p>
+                        <div class="text-center mt-2">
+                            <a data-fancybox="images" data-width="2048" data-height="1365"
+                               href="./assets/images/Hybrid.png" class="slider">
+                                <img src="./assets/images/Hybrid.png"
+                                     width="800" height="500" class="rounded"
+                                     alt="">
+                            </a>
+                        </div>
+                        <p class="text-center font-20 mt-3">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, atque culpa dignissimos
+                            doloremque
+                            eius esse est fuga in, laboriosam, mollitia neque nisi porro recusandae rem repellendus
+                            rerum sit
+                            tempore voluptas.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, atque culpa dignissimos
+                            doloremque
+                            eius esse est fuga in, laboriosam, mollitia neque nisi porro recusandae rem repellendus
+                            rerum sit
+                            tempore voluptas.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, atque culpa dignissimos
+                            doloremque
+                            eius esse est fuga in, laboriosam, mollitia neque nisi porro recusandae rem repellendus
+                            rerum sit
+                            tempore voluptas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron mb-0  px-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-12">
+                <h4>.............</h4>
+                <hr>
+                <ul class="list-unstyled">
+                    <li>
+                        <i class="fa fa-caret-right mr-2"></i>
+                        <span>......</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-caret-right mr-2"></i>
+                        <span>......</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-caret-right mr-2"></i>
+                        <span>......</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-caret-right mr-2"></i>
+                        <span>......</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-12">
+                <h4>.............</h4>
+                <hr>
+                <ul class="list-unstyled">
+                    <li>
+                        <i class="fa fa-caret-right mr-2"></i>
+                        <span>......</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-caret-right mr-2"></i>
+                        <span>......</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-caret-right mr-2"></i>
+                        <span>......</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-caret-right mr-2"></i>
+                        <span>......</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-12">
+                <h4>.............</h4>
+                <hr>
+                <ul class="list-unstyled">
+                    <li>
+                        <i class="fa fa-caret-right mr-2"></i>
+                        <span>......</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-caret-right mr-2"></i>
+                        <span>......</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-caret-right mr-2"></i>
+                        <span>......</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-caret-right mr-2"></i>
+                        <span>......</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./assets/js/jquery-3.4.0.min.js"></script>
+<script src="./assets/js/popper.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./assets/js/jquery.fancybox.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        // https://www.taniarascia.com/smooth-scroll-to-id-with-jquery/
+        $('a[href*="#"]').on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $($(this).attr('href')).offset().top - 50,
+            }, 500, 'linear');
+        });
+    });
+</script>
+</body>
+</html>
