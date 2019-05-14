@@ -1,6 +1,6 @@
 body, html {
-    background: #ECE9E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #ECE9E6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -33,6 +33,12 @@ body, html {
     line-height: 1.2
 }
 
+.display-8 {
+    font-size: 1.9rem;
+    font-weight: 300;
+    line-height: 1.2
+}
+
 .font-20 {
     font-size: 20px !important;
 }
@@ -48,4 +54,13 @@ body, html {
 
 .lightGray {
     background-color: #e4e4e4;
+}
+
+.navbar {
+    background: black !important;
+    color: white !important;
+}
+
+.navbar .nav-link, .navbar .navbar-brand {
+    color: white !important;
 }

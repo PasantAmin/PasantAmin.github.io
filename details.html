@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Graduation Project | Home</title>
+    <title>Graduation Project | Details</title>
 
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="./assets/css/animate.css">
     <link rel="stylesheet" href="./assets/css/app.css">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="#">
-        GP
+        GP [SDS]
     </a>
     <button class="navbar-toggler" type="button"
             data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -47,15 +48,15 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">......</a>
+                <a class="nav-link" href="./results.html">Results</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">......</a>
+                <a class="nav-link" href="./about-us.html">About Us</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="./references.html">References</a>
             </li>
         </ul>
     </div>
@@ -123,21 +124,30 @@
                         </h3>
                         <hr>
                         <p class="font-20">
-                            Sarcasm is to seek an opposite intuition of what you mean. Detecting sarcasm is a key for
-                            sentiment
-                            analysis to differentiate between the two opposite polarities that an utterance may convey,
-                            also
-                            between the literal meaning verses the expressed one. Sarcasm detection is an approach to
-                            classify a
-                            sentence as sarcastic or not. Models for sarcasm detection are varying from rule-based
-                            model,
-                            context-based, content based models and recently deep learning models. In this project, we
-                            implemented different architectures for this task and seek to improve the state-of-art
-                            accuracy for
-                            Arabic sarcasm detection models. The highest results over our proposed approaches was
-                            achieved by
-                            the CNN model with accuracy of __ and F1 score of __.
+                            Being sarcastic is to say something and to mean something else. Detecting sarcasm is key for
+                            social media analysis to differentiate between the two opposite polarities that an utterance
+                            may convey. Different techniques for detecting sarcasm are varying from rule-based models to
+                            Machine Learning and Deep Learning models. However, researchers tend to leverage Deep
+                            Learning in detecting sarcasm recently. On the other hand, the Arabic language has not
+                            witnessed much improvement in this research area.
+                            <br>
+                            Bridging the gap in sarcasm detection of
+                            the Arabic language is the target behind this work. In this work, efficient models in short
+                            text classification are tested for detecting sarcasm in the Arabic language for the first
+                            time. The dataset used to train and test these different architectures was manually
+                            collected by scrapping two different websites, sarcastic and non-sarcastic. The
+                            state-of-the-art results among these models were achieved by the CNN-LSTM model with an
+                            accuracy of <b>0.928</b> and F1 score of <b>0.931</b>.
                         </p>
+
+                        <div class="text-center mt-2">
+                            <a data-fancybox="images" data-width="2048" data-height="1365"
+                               href="./assets/images/Project layout.png" class="slider">
+                                <img src="./assets/images/Project layout.png"
+                                     class="rounded img-thumbnail img-fluid"
+                                     alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -215,38 +225,54 @@
                             Challenges
                         </h3>
                         <hr>
-                        <p class="text-center display-7 font-weight-bold">
-                            FIRST
-                        </p>
-                        <p class="text-center display-7">
-                            Arabic language challenges
-                        </p>
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <div class="card shadow animated infinite flash slower delay-2s">
+                                    <div class="card-body">
+                                        <p class="text-center display-7 font-weight-bold">
+                                            First Challenge
+                                        </p>
+                                        <hr>
+                                        <p class="text-center display-7">
+                                            Arabic language challenges
+                                        </p>
 
-                        <ul class="list-unstyled text-left font-20">
-                            <li>
-                                <i class="fa fa-caret-right mr-2"></i>
-                                <span>Complicated structure.</span>
-                            </li>
-                            <li>
-                                <i class="fa fa-caret-right mr-2"></i>
-                                <span>Lack of resources.</span>
-                            </li>
-                            <li>
-                                <i class="fa fa-caret-right mr-2"></i>
-                                <span>Rich morphology.</span>
-                            </li>
-                            <li>
-                                <i class="fa fa-caret-right mr-2"></i>
-                                <span>The varying dialects it has.</span>
-                            </li>
-                        </ul>
+                                        <ul class="list-unstyled text-left font-20">
+                                            <li>
+                                                <i class="fa fa-caret-right mr-2"></i>
+                                                <span>Complicated structure.</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-caret-right mr-2"></i>
+                                                <span>Lack of resources.</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-caret-right mr-2"></i>
+                                                <span>Rich morphology.</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-caret-right mr-2"></i>
+                                                <span>The varying dialects it has.</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
 
-                        <p class="text-center display-7 font-weight-bold">
-                            SECOND
-                        </p>
-                        <p class="text-center display-7">
-                            Data collection and annotation
-                        </p>
+                            <div class="col-12 col-lg-6">
+                                <div class="card shadow animated infinite flash slower delay-2s ">
+                                    <div class="card-body">
+                                        <p class="text-center display-7 font-weight-bold">
+                                            Second Challenge
+                                        </p>
+                                        <hr>
+                                        <p class="text-center display-7">
+                                            Data collection and annotation
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -264,8 +290,12 @@
                             Background
                         </h3>
                         <hr>
-                        <p class="font-20">
-                            Figure is here.
+                        <p class="font-20 text-center">
+                            <a data-fancybox="images" data-width="2048" data-height="1365"
+                               href="./assets/images/Background.png" class="slider">
+                                <img src="./assets/images/Background.png"
+                                     class="img-thumbnail rounded img-fluid" alt="Background">
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -313,7 +343,7 @@
                             <a href="https://scrapy.org" style="text-decoration: none !important;">Scrapy</a>
                         </p>
                         <div class="text-center mt-2">
-                            <img src="./assets/images/scrapy-logo.png" alt="Scrapy Logo">
+                            <img src="./assets/images/scrapy-logo.png" class="img-thumbnail" alt="Scrapy Logo">
                         </div>
                         <div class="text-center font-20 mt-2">
                     <span class="text-muted">An open source and collaborative framework for extracting the
@@ -330,7 +360,7 @@
                             <a href="https://www.masress.com" style="text-decoration: none !important;">مصرس</a>
                         </p>
                         <div class="text-center mt-2">
-                            <img src="./assets/images/masress-logo-ar.png" alt="Masress Logo">
+                            <img src="./assets/images/masress-logo-ar.png" class="img-thumbnail" alt="Masress Logo">
                         </div>
                         <div class="text-center font-20 mt-2">
                             <span class="text-muted">أخبار مصر على مدار الساعة.</span>
@@ -340,7 +370,7 @@
                             <a href="https://alhudood.net" style="text-decoration: none !important;">الحدود</a>
                         </p>
                         <div class="text-center mt-2">
-                            <img src="./assets/images/AL-HUDOOD-LOGO.png" alt="Al-Hudood Logo">
+                            <img src="./assets/images/AL-HUDOOD-LOGO.png" class="img-thumbnail" alt="Al-Hudood Logo">
                         </div>
                         <div class="text-center font-20 mt-2">
                             <span class="text-muted">أخبار ساخرة | أخبار عربية ساخرة.</span>
@@ -355,7 +385,7 @@
                             <a data-fancybox="images" data-width="2048" data-height="1365"
                                href="./assets/images/data-sample-1.PNG" class="slider">
                                 <img src="./assets/images/data-sample-1.PNG"
-                                     width="800" height="300"
+                                     width="800" height="300" class="img-thumbnail"
                                      alt="">
                             </a>
                         </div>
@@ -396,6 +426,7 @@
                             <a data-fancybox="images" data-width="2048" data-height="1365"
                                href="./assets/images/Word%20embedding.png" class="slider">
                                 <img src="./assets/images/Word%20embedding.png"
+                                     class="img-thumbnail"
                                      width="600" height="400"
                                      alt="">
                             </a>
@@ -455,26 +486,21 @@
                             <a data-fancybox="images" data-width="2048" data-height="1365"
                                href="./assets/images/CNN_edited.png" class="slider">
                                 <img src="./assets/images/CNN_edited.png"
-                                     width="800" height="500" class="rounded"
+                                     width="800" height="500" class="rounded img-thumbnail"
                                      alt="">
                             </a>
                         </div>
                         <p class="text-center font-20 mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, atque culpa dignissimos
-                            doloremque
-                            eius esse est fuga in, laboriosam, mollitia neque nisi porro recusandae rem repellendus
-                            rerum sit
-                            tempore voluptas.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, atque culpa dignissimos
-                            doloremque
-                            eius esse est fuga in, laboriosam, mollitia neque nisi porro recusandae rem repellendus
-                            rerum sit
-                            tempore voluptas.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, atque culpa dignissimos
-                            doloremque
-                            eius esse est fuga in, laboriosam, mollitia neque nisi porro recusandae rem repellendus
-                            rerum sit
-                            tempore voluptas.
+                            The CNN Architecture. Recent Deep Learning researchers have revealed that CNN is remarkably
+                            powerful in classification tasks. First, a representation of headlines is performed using
+                            FastText. For each input headline, each token is represented by the corresponding embedding
+                            vector to construct the embedding matrix. Consequently, an input sentence can be treated as
+                            an image. Then three of 2D convolution layers are applied on that headline using six
+                            convolutional filters.
+                            Each filter generated a feature map. A max pooling layer is added to get a fixed-length
+                            vector from the preceding feature maps. Then, resultant outputs of the preceding stage are
+                            concatenated into a fixed-size filter map. Finally, this filter map is fed through a softmax
+                            function to determine whether the input headline is sarcastic or non-sarcastic.
                         </p>
 
                         <hr width="50%">
@@ -486,22 +512,25 @@
                             <a data-fancybox="images" data-width="2048" data-height="1365"
                                href="./assets/images/LSTM.png" class="slider">
                                 <img src="./assets/images/LSTM.png"
-                                     width="800" height="500" class="rounded"
+                                     width="800" height="500" class="rounded img-thumbnail"
                                      alt="">
                             </a>
                         </div>
                         <p class="text-center font-20 mt-3">
-                            Recently, text classification has leveraged from sequence models (RNN). In most cases, RNN
-                            is
-                            efficient for short text rather than long ones. On Contrary, some issues arise while
-                            training, as:
-                            requirement for large memory and high error value after many network calls. LSTM, BiLSTM and
-                            GRU
-                            compile with short text because they share similar constructions. Moreover, empirical
-                            experiments
-                            demonstrate that LSTM and BiLSTM results are more accurate than GRU. Additionally GRU is
-                            faster in
-                            the training process but it doesn't operate well with very short phrases.
+                            LSTM as a special type of RNN that is efficient in solving the vanishing and exploding
+                            gradients problems. Simple RNN architectures suffer from such gradient problems. For
+                            standard RNN models, the cell is one layer and almost tanh. However, in this model, an LSTM
+                            cell is represented in more complex structures with a higher number of gates to update
+                            memory. By keeping important information and forgetting others, LSTM is much eager to solve
+                            the problem of long-term dependencies. In this proposed LSTM model, the output of the
+                            embedding layer is fed to two LSTM layers, then passed to two fully connected layers (DNN)
+                            and finally, to the softmax layer. Also, a dropout layer was added after each layer with a
+                            probability of 0.5 to solve the over-fitting problem that occurs mainly because of the small
+                            dataset size.
+                            While LSTM learns only dependencies of the preceding word’s information, a crucial rule for
+                            utilizing BiLSTM was revealed. BiLSTM has the ability to learn the dependencies of both the
+                            preceding and following information of a word in a sentence. Adding a BiLSTM layer instead
+                            of the two LSTM layers in the previous architecture was experimented.
                         </p>
 
                         <hr width="50%">
@@ -513,26 +542,18 @@
                             <a data-fancybox="images" data-width="2048" data-height="1365"
                                href="./assets/images/Hybrid.png" class="slider">
                                 <img src="./assets/images/Hybrid.png"
-                                     width="800" height="500" class="rounded"
+                                     width="800" height="500" class="rounded img-thumbnail"
                                      alt="">
                             </a>
                         </div>
                         <p class="text-center font-20 mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, atque culpa dignissimos
-                            doloremque
-                            eius esse est fuga in, laboriosam, mollitia neque nisi porro recusandae rem repellendus
-                            rerum sit
-                            tempore voluptas.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, atque culpa dignissimos
-                            doloremque
-                            eius esse est fuga in, laboriosam, mollitia neque nisi porro recusandae rem repellendus
-                            rerum sit
-                            tempore voluptas.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, atque culpa dignissimos
-                            doloremque
-                            eius esse est fuga in, laboriosam, mollitia neque nisi porro recusandae rem repellendus
-                            rerum sit
-                            tempore voluptas.
+                            Building this approach represents an avenue to leverage the advantages of both CNN and LSTM
+                            architectures. LSTM architecture is efficient in feature extraction and semantic analysis.
+                            While CNN architecture is more efficient in the accuracy of classification. Hybrid models
+                            implemented in this work are represented in different architectures as follows: First, the
+                            structure of this proposed model is as follows: a CNN architecture on top of a multi-layer
+                            LSTM model. Second, the LSTM architecture on top of a CNN model. Finally, the third one has
+                            a BiLSTM architecture on top of a CNN model.
                         </p>
                     </div>
                 </div>
